@@ -10,7 +10,7 @@ const MONDAY_CONFIG = {
   apiToken: "eyJhbGciOiJIUzI1NiJ9.eyJ0aWQiOjY0ODYyNzkzNywiYWFpIjoxMSwidWlkIjo0NDQzMjI4OSwiaWFkIjoiMjAyNi0wNC0yMlQwMjo0NjoxMS4wODdaIiwicGVyIjoibWU6d3JpdGUiLCJhY3RpZCI6OTg3MDE5MiwicmduIjoidXNlMSJ9.EyCuOE6gD7deanVMreuhS6j94Zzx3JS8ubQKevwZPy0",
 
   // Board ID — from the board URL: monday.com/boards/BOARD_ID
-  boardId: "18409668922",
+  boardId: "18410350591",
 
   // Group ID within the board where parent items live.
   // Find via GraphQL: { boards(ids: BOARD_ID) { groups { id title } } }
