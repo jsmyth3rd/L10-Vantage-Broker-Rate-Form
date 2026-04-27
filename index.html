@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Create a Task</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="app">
+    <section class="card" id="card">
+      <header class="card__header">
+        <h1 id="form-title">Loading…</h1>
+        <p id="form-subtitle" class="card__subtitle"></p>
+      </header>
+
+      <div id="status" class="status" role="status" aria-live="polite"></div>
+
+      <form id="subitem-form" class="form" hidden novalidate>
+        <!-- Fields rendered in Phase 3 -->
+      </form>
+    </section>
+  </main>
+
+  <script src="config.js"></script>
+  <script src="app.js" defer></script>
+</body>
+</html>

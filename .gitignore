@@ -1,0 +1,9 @@
+# Per-client config contains the Monday.com API token — never commit.
+# Deployers copy config.example.js to config.js and fill it in.
+config.js
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
