@@ -111,7 +111,7 @@
       </div>
 
       <div class="field">
-        <label class="field__label" for="assignee">Assign To <span class="req">*</span></label>
+        <label class="field__label" for="assignee">Who is Submitting <span class="req">*</span></label>
         <select id="assignee" class="select" required>
           <option value="">Select a person…</option>
           ${subscribers.map((s) => `<option value="${escapeAttr(s.id)}">${escapeHtml(s.name)}</option>`).join("")}
